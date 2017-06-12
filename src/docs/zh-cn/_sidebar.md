@@ -18,18 +18,19 @@
   - [信息窗体](zh-cn/windows/info-window)
 
 - 扩展
-  - [搜索组件](zh-cn/services/searchbox.md)
+  - [搜索组件](zh-cn/services/searchbox)
+  - [城市选择器](zh-cn/services/city-selector)
 
 - 插件
-  - [指南](zh-cn/plugins/base.md)
-  - [类型插件](zh-cn/plugins/maptype.md)
-  - [鹰眼插件](zh-cn/plugins/overview.md)
-  - [比例尺插件](zh-cn/plugins/scale.md)
-  - [工具条插件](zh-cn/plugins/toolbar.md)
-  - [定位插件](zh-cn/plugins/geolocation.md)
+  - [指南](zh-cn/plugins/base)
+  - [类型插件](zh-cn/plugins/maptype)
+  - [鹰眼插件](zh-cn/plugins/overview)
+  - [比例尺插件](zh-cn/plugins/scale)
+  - [工具条插件](zh-cn/plugins/toolbar)
+  - [定位插件](zh-cn/plugins/geolocation)
 
 - 示例中心
  - 基础
-   - [地图](zh-cn/examples/base/amap.md)
+   - [地图](zh-cn/examples/base/amap)
  - 窗体
-   - [信息窗体](zh-cn/examples/windows/info-window.md)
+   - [信息窗体](zh-cn/examples/windows/info-window)

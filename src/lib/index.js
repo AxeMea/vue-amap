@@ -15,6 +15,7 @@ import AMapGroupImage from './components/amap-ground-image.vue';
 import AMapInfoWindow from './components/amap-info-window.vue';
 import AMapPolyline from './components/amap-polyline.vue';
 import AMapPolygon from './components/amap-polygon.vue';
+import AMapCitySelector from './components/amap-city-selector.vue';
 
 // managers
 import AMapManager from './managers/amap-manager';
@@ -27,7 +28,8 @@ let components = [
   AMapGroupImage,
   AMapInfoWindow,
   AMapPolygon,
-  AMapPolyline
+  AMapPolyline,
+  AMapCitySelector
 ];
 
 let VueAMap = {
@@ -54,8 +56,6 @@ const install = function(Vue, opts = {}) {
 /* istanbul ignore if */
 if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue);
-
-  // window.VueAmap = VueAMap;
 };
 
 export default VueAMap;
